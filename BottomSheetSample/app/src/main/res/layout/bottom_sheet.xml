@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="48dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f1f1f1" />
+
+    <com.nickcode4fun.bottomsheetsample.ImageTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:src="@drawable/ic_preview"
+        app:text="Preview" />
+
+    <com.nickcode4fun.bottomsheetsample.ImageTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:src="@drawable/ic_share"
+        app:text="Share" />
+
+    <com.nickcode4fun.bottomsheetsample.ImageTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:src="@drawable/ic_cloud_upload"
+        app:text="Upload" />
+
+    <com.nickcode4fun.bottomsheetsample.ImageTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:src="@drawable/ic_content_copy"
+        app:text="Copy" />
+
+    <com.nickcode4fun.bottomsheetsample.ImageTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:src="@drawable/ic_print"
+        app:text="Print this page" />
+
+</LinearLayout>
